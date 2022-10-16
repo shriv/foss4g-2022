@@ -24,17 +24,18 @@ Umbrella term that covers multiple domains: machine learning, statistical models
 
 ```{mermaid}
 flowchart TB
-  ds --> bd[Big Data]
+  da[Data <br> analysis] --> des[Descriptive <br> statistics]
+  da --> viz[Data <br> visualisation]
   ds --> dl[Deep learning]
-  ds[Data science] --> ml[Machine learning]
-  sl[Statistical learning] --> sm[Statistical models]
-  sm --> ba[Bayesian analyses]
-  sm --> ht[Hypothesis testing]
+  ds[Data <br> science] --> ml[Machine <br> learning]
+  sl[Statistical <br> learning] --> sm[Statistical <br> models]
+  sm --> ba[Bayesian <br> analyses]
+  sm --> ht[Hypothesis <br> testing]
   sl --> ml
-  bi[Business intelligence] --> re[Reporting]
+  bi[Business <br> intelligence] --> re[Reporting]
   bi --> db[Dashboards]
 ```
 
-## References
+# References
 ::: {#refs}
 :::
