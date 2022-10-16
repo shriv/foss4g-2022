@@ -1,0 +1,40 @@
+---
+title: "Maritime geospatial analytics for supply chain transport policy"
+author: "Shrividya Ravi"
+format: revealjs
+bibliography: references.bib
+---
+
+## Topics
+- What is geospatial analytics?
+- What is transport policy?
+- How can analytics be used in policymaking?
+- Geospatial analytics for supply chain policy
+
+# What is geospatial analytics?
+
+## Analytics is computational analysis
+> It is used for the discovery, interpretation, and communication of meaningful patterns in data. 
+
+> It also entails applying data patterns toward effective decision-making. 
+- @Analytics2022
+
+## Analytics is a superset
+Umbrella term that covers multiple domains: machine learning, statistical models, business intelligence. 
+
+```{mermaid}
+flowchart TB
+  ds --> bd[Big Data]
+  ds --> dl[Deep learning]
+  ds[Data science] --> ml[Machine learning]
+  sl[Statistical learning] --> sm[Statistical models]
+  sm --> ba[Bayesian analyses]
+  sm --> ht[Hypothesis testing]
+  sl --> ml
+  bi[Business intelligence] --> re[Reporting]
+  bi --> db[Dashboards]
+```
+
+## References
+::: {#refs}
+:::
