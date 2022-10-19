@@ -48,7 +48,7 @@ flowchart TB
 :::
 
 ::: {.column width="60%"}
-![](assets/gds_summary.PNG)
+![](assets/gds_summary.png)
 
 <div style="text-align: right"> @gisgeographyWhatSpatialData2022 </div>
 :::
