@@ -14,13 +14,14 @@ bibliography: references.bib
 # What is geospatial analytics?
 
 ## Analytics is computational analysis
-> It is used for the discovery, interpretation, and communication of meaningful patterns in data. 
+> Used for the discovery, interpretation, and communication of meaningful patterns in data. 
 
-> It also entails applying data patterns toward effective decision-making. 
-- @Analytics2022
+> Applying data patterns toward effective decision-making. 
+
+<div style="text-align: right"> @Analytics2022 </div>
 
 ## Analytics is a superset
-Umbrella term that covers multiple domains: machine learning, statistical models, business intelligence. 
+An umbrella term that covers multiple domains: machine learning, statistical models, business intelligence. 
 
 ```{mermaid}
 flowchart TB
@@ -35,6 +36,61 @@ flowchart TB
   bi[Business <br> intelligence] --> re[Reporting]
   bi --> db[Dashboards]
 ```
+
+## Geospatial analytics
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- Geospatial into the data mix and focuses on deriving insights with spatial resolution. 
+- _Geospatial data science_ is an exciting and emerging field that uses new and specialized techniques alongside automation.
+
+:::
+
+::: {.column width="60%"}
+![](assets/gds_summary.PNG)
+
+<div style="text-align: right"> @gisgeographyWhatSpatialData2022 </div>
+:::
+
+::::
+
+## FOSS4G precedence in geospatial data science
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- In transport, FOSS4G is disrupting the established use of expensive and specialised software in transport modelling, simulations, mapping etc. 
+
+:::
+
+::: {.column width="60%"}
+![](assets/logos.png)
+:::
+
+::::
+
+## FOSS4G precedence due to integration
+:::: {.columns}
+
+::: {.column width="40%"}
+In languages like R and Python, the standard packages for data science can be extended to geospatial data. 
+
+:::
+
+::: {.column width="60%"}
+![](assets/pandas_geopandas.png)
+:::
+
+::::
+
+## Why am I telling you all this?
+Geospatial data enriches with spatial information. But the same data point can also contain other information - various numeric and categorical characteristics, temporal data etc. Having tools that operate seamlessly across all these different types of information allow for deep and useful insights. 
+
+# Policymaking
+
+
+
 
 # References
 ::: {#refs}
