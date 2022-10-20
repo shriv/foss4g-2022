@@ -1,7 +1,9 @@
 ---
 title: "Maritime geospatial analytics for supply chain transport policy"
 author: "Shrividya Ravi"
-format: revealjs
+format:
+  revealjs: 
+   theme: [simple, custom.scss]
 bibliography: references.bib
 ---
 
@@ -14,81 +16,144 @@ bibliography: references.bib
 # What is geospatial analytics?
 
 ## Analytics is computational analysis
-> Used for the discovery, interpretation, and communication of meaningful patterns in data. 
+> Used for the discovery, interpretation, and communication of `meaningful patterns` in data. 
 
-> Applying data patterns toward effective decision-making. 
+> Applying `data patterns` toward effective `decision-making`. 
 
 <div style="text-align: right"> @Analytics2022 </div>
 
 ## Analytics is a superset
-An umbrella term that covers multiple domains: machine learning, statistical models, business intelligence. 
+An umbrella term that covers multiple domains: machine learning, statistical modelling and analysis. Often synonymous with `data science`. Some definitions incorporate business intelligence. 
 
 ```{mermaid}
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
+
 flowchart TB
+  ds -.-> bi[Business intelligence]
+  bi -.-> rep[Reporting]
   da[Data <br> analysis] --> des[Descriptive <br> statistics]
   da --> viz[Data <br> visualisation]
-  ds --> dl[Deep learning]
-  ds[Data <br> science] --> ml[Machine <br> learning]
-  sl[Statistical <br> learning] --> sm[Statistical <br> models]
-  sm --> ba[Bayesian <br> analyses]
-  sm --> ht[Hypothesis <br> testing]
-  sl --> ml
-  bi[Business <br> intelligence] --> re[Reporting]
-  bi --> db[Dashboards]
+  ds --> dl[Deep <br> learning]
+  ds --> da
+  ds --> sim[Simulations]
+  ds[Data science / <br> Analytics] --> ml[Machine <br> learning]
+  ds--> sm[Statistical <br> models]
 ```
 
-## Geospatial analytics
+## Geospatial data science
 
 :::: {.columns}
-
 ::: {.column width="40%"}
-- Geospatial into the data mix and focuses on deriving insights with spatial resolution. 
-- _Geospatial data science_ is an exciting and emerging field that uses new and specialized techniques alongside automation.
-
+An exciting and emerging field that dervies insights with spatial resolution using `new and specialised techniques` and `automation`.
 :::
-
 ::: {.column width="60%"}
 ![](assets/gds_summary.png)
 
 <div style="text-align: right"> @gisgeographyWhatSpatialData2022 </div>
 :::
-
 ::::
 
-## FOSS4G precedence in geospatial data science
 
+## The value of geospatial data science
+Geospatial data enriches with spatial information. But the same data point can also contain other information - numeric and categorical characteristics, temporal etc. `Tools that operate seamlessly across these different types of information allow for deep and useful insights`. 
+
+## FOSS4G value is integration
 :::: {.columns}
+::: {.column width="40%"}
+In languages like R and Python, the standard packages for data science have been extended to geospatial data. APIs are consistent and entering spatial data science has few barriers. 
+:::
+::: {.column width="60%"}
+![](assets/spatial-ds-libs.png)
+:::
+::::
 
+## FOSS4G in geospatial data science
+:::: {.columns}
 ::: {.column width="40%"}
 - In transport, FOSS4G is disrupting the established use of expensive and specialised software in transport modelling, simulations, mapping etc. 
-
 :::
-
 ::: {.column width="60%"}
 ![](assets/logos.png)
 :::
-
 ::::
 
-## FOSS4G precedence due to integration
-:::: {.columns}
-
-::: {.column width="40%"}
-In languages like R and Python, the standard packages for data science can be extended to geospatial data. 
-
-:::
-
-::: {.column width="60%"}
-![](assets/pandas_geopandas.png)
-:::
-
-::::
-
-## Why am I telling you all this?
-Geospatial data enriches with spatial information. But the same data point can also contain other information - various numeric and categorical characteristics, temporal data etc. Having tools that operate seamlessly across all these different types of information allow for deep and useful insights. 
 
 # Policymaking
 
+## Interventions available to governments
+```{mermaid}
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
+
+graph TD
+wcgd[What can government do?] --> coercion
+wcgd --> spending
+coercion --> ct[Collect <br> tax]
+coercion --> mb[Modify <br> behaviour]
+spending --> ps[Provide <br> public services]
+spending --> subs[Provide <br> subsidies]
+```
+
+## Three pillars of government action
+```{mermaid}
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
+
+graph TD
+wcgd[What can government do?] --> coercion
+wcgd --> spending
+coercion --> ct[Collect <br> tax]
+coercion --> mb[Modify <br> behaviour]
+spending --> ps[Provide <br> public services]
+spending --> subs[Provide <br> subsidies]
+subs -->|action| fin[(Financing)]
+ps -->|action| prod[(Production)]
+mb -->|action| reg[(Regulation)]
+```
+
+## Policymaking is the process behind the pillars of action
+:::: {.columns}
+::: {.column width="50%"}
+- Process typically starts with the identification of a problem and proceeds in a "cycle". 
+- Data science plays a role at several points in the cycle. 
+::: 
+
+::: {.column width="50%"}
+![](assets/policy-cycle.png)
+:::
+::::
+
+
+## Without evidence policy making is guesswork and opinions
+
+- Need appropriate information
+
+> What you measure is what you can manage.
+
+- Need relevant knowledge
+
+> We don't know the right thing to do. Without knowing what could happen from research, policy devolves into opinions. 
+
+
+## Analysts and policymakers - a work in progress
+Analysts with little understanding of policy and policymakers with little understanding of the value of complex information that can be derived from data
+
+## Bringing evidence into policymaking
+> Analysts must make the first move
+
+:::: {.columns}
+::: {.column width="50%"}
+- Ask questions. 
+- Learn the domain. 
+- Test analyses.
+- Make analyses accessible. 
+- Share and discuss. 
+- Repeat. 
+::: 
+::: {.column width="50%"}
+![](assets/kittens.gif)
+:::
+::::
+
+# A transport story
 
 
 
