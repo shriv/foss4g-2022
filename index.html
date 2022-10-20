@@ -367,10 +367,10 @@
 <section id="analytics-is-computational-analysis" class="slide level2">
 <h2>Analytics is computational analysis</h2>
 <blockquote>
-<p>Used for the discovery, interpretation, and communication of meaningful patterns in data.</p>
+<p>Used for the discovery, interpretation, and communication of <code>meaningful patterns</code> in data.</p>
 </blockquote>
 <blockquote>
-<p>Applying data patterns toward effective decision-making.</p>
+<p>Applying <code>data patterns</code> toward effective <code>decision-making</code>.</p>
 </blockquote>
 <div style="text-align: right">
 <span class="citation" data-cites="Analytics2022"><span>“Analytics”</span> (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span>
@@ -378,22 +378,23 @@
 </section>
 <section id="analytics-is-a-superset" class="slide level2">
 <h2>Analytics is a superset</h2>
-<p>An umbrella term that covers multiple domains: machine learning, statistical models, business intelligence.</p>
+<p>An umbrella term that covers multiple domains: machine learning, statistical modelling and analysis. Often synonymous with <code>data science</code>. Some definitions incorporate business intelligence.</p>
 <div class="cell" data-reveal="true">
 <div class="cell-output-display">
 <div>
 <p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-1">flowchart TB
+</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-1">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
+
+flowchart TB
+  ds -.-&gt; bi[Business intelligence]
+  bi -.-&gt; rep[Reporting]
   da[Data &lt;br&gt; analysis] --&gt; des[Descriptive &lt;br&gt; statistics]
   da --&gt; viz[Data &lt;br&gt; visualisation]
-  ds --&gt; dl[Deep learning]
-  ds[Data &lt;br&gt; science] --&gt; ml[Machine &lt;br&gt; learning]
-  sl[Statistical &lt;br&gt; learning] --&gt; sm[Statistical &lt;br&gt; models]
-  sm --&gt; ba[Bayesian &lt;br&gt; analyses]
-  sm --&gt; ht[Hypothesis &lt;br&gt; testing]
-  sl --&gt; ml
-  bi[Business &lt;br&gt; intelligence] --&gt; re[Reporting]
-  bi --&gt; db[Dashboards]
+  ds --&gt; dl[Deep &lt;br&gt; learning]
+  ds --&gt; da
+  ds --&gt; sim[Simulations]
+  ds[Data science / &lt;br&gt; Analytics] --&gt; ml[Machine &lt;br&gt; learning]
+  ds--&gt; sm[Statistical &lt;br&gt; models]
 </pre>
 <div id="mermaid-tooltip-1" class="mermaidTooltip">
 
@@ -403,14 +404,11 @@
 </div>
 </div>
 </section>
-<section id="geospatial-analytics" class="slide level2">
-<h2>Geospatial analytics</h2>
+<section id="geospatial-data-science" class="slide level2">
+<h2>Geospatial data science</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
-<ul>
-<li>Geospatial into the data mix and focuses on deriving insights with spatial resolution.</li>
-<li><em>Geospatial data science</em> is an exciting and emerging field that uses new and specialized techniques alongside automation.</li>
-</ul>
+<p>An exciting and emerging field that dervies insights with spatial resolution using <code>new and specialised techniques</code> and <code>automation</code>.</p>
 </div><div class="column" style="width:60%;">
 <p><img data-src="assets/gds_summary.png"></p>
 <div style="text-align: right">
@@ -419,8 +417,22 @@
 </div>
 </div>
 </section>
-<section id="foss4g-precedence-in-geospatial-data-science" class="slide level2">
-<h2>FOSS4G precedence in geospatial data science</h2>
+<section id="the-value-of-geospatial-data-science" class="slide level2">
+<h2>The value of geospatial data science</h2>
+<p>Geospatial data enriches with spatial information. But the same data point can also contain other information - numeric and categorical characteristics, temporal etc. <code>Tools that operate seamlessly across these different types of information allow for deep and useful insights</code>.</p>
+</section>
+<section id="foss4g-value-is-integration" class="slide level2">
+<h2>FOSS4G value is integration</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p>In languages like R and Python, the standard packages for data science have been extended to geospatial data. APIs are consistent and entering spatial data science has few barriers.</p>
+</div><div class="column" style="width:60%;">
+<p><img data-src="assets/spatial-ds-libs.png"></p>
+</div>
+</div>
+</section>
+<section id="foss4g-in-geospatial-data-science" class="slide level2">
+<h2>FOSS4G in geospatial data science</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <ul>
@@ -430,23 +442,117 @@
 <p><img data-src="assets/logos.png"></p>
 </div>
 </div>
-</section>
-<section id="foss4g-precedence-due-to-integration" class="slide level2">
-<h2>FOSS4G precedence due to integration</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p>In languages like R and Python, the standard packages for data science can be extended to geospatial data.</p>
-</div><div class="column" style="width:60%;">
-<p><img data-src="assets/pandas_geopandas.png"></p>
-</div>
-</div>
-</section>
-<section id="why-am-i-telling-you-all-this" class="slide level2">
-<h2>Why am I telling you all this?</h2>
-<p>Geospatial data enriches with spatial information. But the same data point can also contain other information - various numeric and categorical characteristics, temporal data etc. Having tools that operate seamlessly across all these different types of information allow for deep and useful insights.</p>
 </section></section>
+<section>
 <section id="policymaking" class="title-slide slide level1 center">
 <h1>Policymaking</h1>
+
+</section>
+<section id="interventions-available-to-governments" class="slide level2">
+<h2>Interventions available to governments</h2>
+<div class="cell" data-reveal="true">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-2">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
+
+graph TD
+wcgd[What can government do?] --&gt; coercion
+wcgd --&gt; spending
+coercion --&gt; ct[Collect &lt;br&gt; tax]
+coercion --&gt; mb[Modify &lt;br&gt; behaviour]
+spending --&gt; ps[Provide &lt;br&gt; public services]
+spending --&gt; subs[Provide &lt;br&gt; subsidies]
+</pre>
+<div id="mermaid-tooltip-2" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="three-pillars-of-government-action" class="slide level2">
+<h2>Three pillars of government action</h2>
+<div class="cell" data-reveal="true">
+<div class="cell-output-display">
+<div>
+<p>
+</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-3">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
+
+graph TD
+wcgd[What can government do?] --&gt; coercion
+wcgd --&gt; spending
+coercion --&gt; ct[Collect &lt;br&gt; tax]
+coercion --&gt; mb[Modify &lt;br&gt; behaviour]
+spending --&gt; ps[Provide &lt;br&gt; public services]
+spending --&gt; subs[Provide &lt;br&gt; subsidies]
+subs --&gt;|action| fin[(Financing)]
+ps --&gt;|action| prod[(Production)]
+mb --&gt;|action| reg[(Regulation)]
+</pre>
+<div id="mermaid-tooltip-3" class="mermaidTooltip">
+
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="policymaking-is-the-process-behind-the-pillars-of-action" class="slide level2">
+<h2>Policymaking is the process behind the pillars of action</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Process typically starts with the identification of a problem and proceeds in a “cycle”.</li>
+<li>Data science plays a role at several points in the cycle.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="assets/policy-cycle.png"></p>
+</div>
+</div>
+</section>
+<section id="without-evidence-policy-making-is-guesswork-and-opinions" class="slide level2">
+<h2>Without evidence policy making is guesswork and opinions</h2>
+<ul>
+<li>Need appropriate information</li>
+</ul>
+<blockquote>
+<p>What you measure is what you can manage.</p>
+</blockquote>
+<ul>
+<li>Need relevant knowledge</li>
+</ul>
+<blockquote>
+<p>We don’t know the right thing to do. Without knowing what could happen from research, policy devolves into opinions.</p>
+</blockquote>
+</section>
+<section id="analysts-and-policymakers---a-work-in-progress" class="slide level2">
+<h2>Analysts and policymakers - a work in progress</h2>
+<p>Analysts with little understanding of policy and policymakers with little understanding of the value of complex information that can be derived from data</p>
+</section>
+<section id="bringing-evidence-into-policymaking" class="slide level2">
+<h2>Bringing evidence into policymaking</h2>
+<blockquote>
+<p>Analysts must make the first move</p>
+</blockquote>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li>Ask questions.</li>
+<li>Learn the domain.</li>
+<li>Test analyses.</li>
+<li>Make analyses accessible.</li>
+<li>Share and discuss.</li>
+<li>Repeat.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="assets/kittens.gif"></p>
+</div>
+</div>
+</section></section>
+<section id="a-transport-story" class="title-slide slide level1 center">
+<h1>A transport story</h1>
 
 </section>
 
