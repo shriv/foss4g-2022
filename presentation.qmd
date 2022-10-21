@@ -24,7 +24,7 @@ bibliography: references.bib
 <div style="text-align: right"> @Analytics2022 </div>
 
 ## Analytics is a superset
-An umbrella term that covers multiple domains: machine learning, statistical modelling and analysis. Often synonymous with `data science`. Some definitions incorporate business intelligence. 
+Covers multiple domains. Often synonymous with `data science`. Some definitions incorporate business intelligence. 
 
 ```{mermaid}
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
@@ -70,7 +70,7 @@ In languages like R and Python, the standard packages for data science have been
 ## FOSS4G in geospatial data science
 :::: {.columns}
 ::: {.column width="40%"}
-- In transport, FOSS4G is disrupting the established use of expensive and specialised software in transport modelling, simulations, mapping etc. 
+In transport, FOSS4G is disrupting the established use of expensive and specialised software in transport modelling, simulations, mapping etc. 
 :::
 ::: {.column width="60%"}
 ![](assets/logos.png)
@@ -93,36 +93,21 @@ spending --> ps[Provide <br> public services]
 spending --> subs[Provide <br> subsidies]
 ```
 
-## Three pillars of government action
-```{mermaid}
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
-
-graph TD
-wcgd[What can government do?] --> coercion
-wcgd --> spending
-coercion --> ct[Collect <br> tax]
-coercion --> mb[Modify <br> behaviour]
-spending --> ps[Provide <br> public services]
-spending --> subs[Provide <br> subsidies]
-subs -->|action| fin[(Financing)]
-ps -->|action| prod[(Production)]
-mb -->|action| reg[(Regulation)]
-```
-
-## Policymaking is the process behind the pillars of action
+## Policy designs state interventions
 :::: {.columns}
-::: {.column width="50%"}
-- Process typically starts with the identification of a problem and proceeds in a "cycle". 
+::: {.column width="40%"}
+- Process often starts with problem and proceeds in a "cycle". 
 - Data science plays a role at several points in the cycle. 
+
 ::: 
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](assets/policy-cycle.png)
 :::
 ::::
 
 
-## Without evidence policy making is guesswork and opinions
+## Policy without evidence = guesswork and opinions
 
 - Need appropriate information
 
@@ -130,11 +115,21 @@ mb -->|action| reg[(Regulation)]
 
 - Need relevant knowledge
 
-> We don't know the right thing to do. Without knowing what could happen from research, policy devolves into opinions. 
+> Without knowing what could happen from research, policy devolves into opinions. 
 
 
 ## Analysts and policymakers - a work in progress
-Analysts with little understanding of policy and policymakers with little understanding of the value of complex information that can be derived from data
+:::: {.columns}
+::: {.column width="75%"}
+- Analysts with little understanding of policy
+- Policymakers with little understanding of information that can be derived from data
+::: 
+::: {.column width="25%"}
+![](assets/confused.gif)
+:::
+::::
+
+
 
 ## Bringing evidence into policymaking
 > Analysts must make the first move
