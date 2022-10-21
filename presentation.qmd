@@ -4,6 +4,7 @@ author: "Shrividya Ravi"
 format:
   revealjs: 
    theme: [simple, custom.scss]
+   view-distance: 40
 bibliography: references.bib
 ---
 
