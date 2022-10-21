@@ -10,11 +10,11 @@ bibliography: references.bib
 
 ## Topics
 - What is geospatial analytics?
-- What is transport policy?
+- What is policy?
 - How can analytics be used in policymaking?
 - Geospatial analytics for supply chain policy
 
-# What is geospatial analytics?
+# Geospatial analytics
 
 ## Analytics is computational analysis
 > Used for the discovery, interpretation, and communication of `meaningful patterns` in data. 
@@ -129,8 +129,6 @@ spending --> subs[Provide <br> subsidies]
 :::
 ::::
 
-
-
 ## Bringing evidence into policymaking
 > Analysts must make the first move
 
@@ -150,6 +148,21 @@ spending --> subs[Provide <br> subsidies]
 
 # A transport story
 
+## Transport policy
+![](assets/mot-policy-framework.png)
+
+## Are markets working?
+- To figure out if there is a market failure, policymakers need to understand how the market works. 
+- Contextual understanding use extensive engagement with different players. 
+- But when things are not working, intelligence from qualitative sources can be heavily biased. 
+- Analytics can play a role. 
+
+## Maritime supply chain policy context
+![](assets/maritime-ops.png)
+
+## NZ's maritime connectivity
+[](https://mot-analytics.gitlab.io/figs/starboard/maritime-connectivity-2021/voyages)
+[![](assets/data-story.png)](https://mot-analytics.gitlab.io/figs/starboard/maritime-connectivity-2021/voyages){width=80%}
 
 
 # References
