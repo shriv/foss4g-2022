@@ -4,8 +4,6 @@ author: "Shrividya Ravi"
 format:
   revealjs: 
    theme: [simple, custom.scss]
-   view-distance: 20
-
 bibliography: references.bib
 ---
 
@@ -29,7 +27,7 @@ An umbrella term that covers multiple domains: machine learning, statistical mod
 
 ```{mermaid}
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
-
+%%| mermaid-format: svg
 flowchart TB
   ds -.-> bi[Business intelligence]
   bi -.-> rep[Reporting]
@@ -85,7 +83,8 @@ In languages like R and Python, the standard packages for data science have been
 ## Interventions available to governments
 ```{mermaid}
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
-
+%%| mermaid-format: svg
+%%| 
 graph TD
 wcgd[What can government do?] --> coercion
 wcgd --> spending
@@ -98,6 +97,7 @@ spending --> subs[Provide <br> subsidies]
 ## Three pillars of government action
 ```{mermaid}
 %%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
+%%| mermaid-format: svg
 
 graph TD
 wcgd[What can government do?] --> coercion
