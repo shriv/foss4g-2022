@@ -337,9 +337,6 @@
       margin-right: 0; 
     }
   </style>
-  <script src="presentation_files/libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="presentation_files/libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="presentation_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -379,25 +376,11 @@
 <section id="analytics-is-a-superset" class="slide level2">
 <h2>Analytics is a superset</h2>
 <p>An umbrella term that covers multiple domains: machine learning, statistical modelling and analysis. Often synonymous with <code>data science</code>. Some definitions incorporate business intelligence.</p>
-<div class="cell" data-reveal="true">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-1">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
-flowchart TB
-  ds -.-&gt; bi[Business intelligence]
-  bi -.-&gt; rep[Reporting]
-  da[Data &lt;br&gt; analysis] --&gt; des[Descriptive &lt;br&gt; statistics]
-  da --&gt; viz[Data &lt;br&gt; visualisation]
-  ds --&gt; dl[Deep &lt;br&gt; learning]
-  ds --&gt; da
-  ds --&gt; sim[Simulations]
-  ds[Data science / &lt;br&gt; Analytics] --&gt; ml[Machine &lt;br&gt; learning]
-  ds--&gt; sm[Statistical &lt;br&gt; models]
-</pre>
-<div id="mermaid-tooltip-1" class="mermaidTooltip">
-
-</div>
+</p><p><img data-src="presentation_files/figure-revealjs/mermaid-figure-1.png" style="width:10in;height:5in"></p>
 <p></p>
 </div>
 </div>
@@ -449,23 +432,11 @@ flowchart TB
 </section>
 <section id="interventions-available-to-governments" class="slide level2">
 <h2>Interventions available to governments</h2>
-<div class="cell" data-reveal="true">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-2">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
-
-graph TD
-wcgd[What can government do?] --&gt; coercion
-wcgd --&gt; spending
-coercion --&gt; ct[Collect &lt;br&gt; tax]
-coercion --&gt; mb[Modify &lt;br&gt; behaviour]
-spending --&gt; ps[Provide &lt;br&gt; public services]
-spending --&gt; subs[Provide &lt;br&gt; subsidies]
-</pre>
-<div id="mermaid-tooltip-2" class="mermaidTooltip">
-
-</div>
+</p><p><img data-src="presentation_files/figure-revealjs/mermaid-figure-3.png" style="width:10in;height:5in"></p>
 <p></p>
 </div>
 </div>
@@ -473,26 +444,11 @@ spending --&gt; subs[Provide &lt;br&gt; subsidies]
 </section>
 <section id="three-pillars-of-government-action" class="slide level2">
 <h2>Three pillars of government action</h2>
-<div class="cell" data-reveal="true">
+<div class="cell">
 <div class="cell-output-display">
 <div>
 <p>
-</p><pre class="mermaid" data-tooltip-selector="#mermaid-tooltip-3">%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#fab005', 'primaryTextColor': '#ffffff'}}}%%
-
-graph TD
-wcgd[What can government do?] --&gt; coercion
-wcgd --&gt; spending
-coercion --&gt; ct[Collect &lt;br&gt; tax]
-coercion --&gt; mb[Modify &lt;br&gt; behaviour]
-spending --&gt; ps[Provide &lt;br&gt; public services]
-spending --&gt; subs[Provide &lt;br&gt; subsidies]
-subs --&gt;|action| fin[(Financing)]
-ps --&gt;|action| prod[(Production)]
-mb --&gt;|action| reg[(Regulation)]
-</pre>
-<div id="mermaid-tooltip-3" class="mermaidTooltip">
-
-</div>
+</p><p><img data-src="presentation_files/figure-revealjs/mermaid-figure-2.png" style="width:10in;height:5in"></p>
 <p></p>
 </div>
 </div>
@@ -736,7 +692,7 @@ GISGeography. 2022. <span>“What Is <span>Spatial Data Science</span>?”</span
         backgroundTransition: 'none',
 
         // Number of slides away from the current that are visible
-        viewDistance: 40,
+        viewDistance: 3,
 
         // Number of slides away from the current that are visible on mobile
         // devices. It is advisable to set this to a lower number than
