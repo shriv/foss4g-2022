@@ -4,7 +4,7 @@ author: "Shrividya Ravi"
 format:
   revealjs: 
    theme: [simple, custom.scss]
-   view-distance: 40
+   mermaid-format: png
 bibliography: references.bib
 ---
 
