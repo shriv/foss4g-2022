@@ -55,9 +55,9 @@ An exciting and emerging field that dervies insights with spatial resolution usi
 
 
 ## The value of geospatial data science
-Geospatial data enriches with spatial information. But the same data point can also contain other information - numeric and categorical characteristics, temporal etc. `Tools that operate seamlessly across these different types of information allow for deep and useful insights`. 
+Geospatial data enriches with spatial information. But the same data point can also contain other information - numeric and categorical characteristics, temporal etc. `Tools that operate seamlessly` across these different types of information allow for `deep and useful insights`. 
 
-## FOSS4G value is integration
+## FOSS4G embodies value of geospatial data science
 :::: {.columns}
 ::: {.column width="40%"}
 In languages like R and Python, the standard packages for data science have been extended to geospatial data. APIs are consistent and entering spatial data science has few barriers. 
@@ -67,10 +67,10 @@ In languages like R and Python, the standard packages for data science have been
 :::
 ::::
 
-## FOSS4G in geospatial data science
+## FOSS4G in transport
 :::: {.columns}
 ::: {.column width="40%"}
-In transport, FOSS4G is disrupting the established use of expensive and specialised software in transport modelling, simulations, mapping etc. 
+FOSS4G is disrupting the established use of expensive and specialised software in transport modelling, simulations, mapping etc. 
 :::
 ::: {.column width="60%"}
 ![](assets/logos.png)
@@ -79,6 +79,9 @@ In transport, FOSS4G is disrupting the established use of expensive and speciali
 
 
 # Policymaking
+
+## Role of government
+> Government exists to manage the different `types of market failures` and the `equitable redistribution of resources`. 
 
 ## Interventions available to governments
 ```{mermaid}
@@ -93,7 +96,7 @@ spending --> ps[Provide <br> public services]
 spending --> subs[Provide <br> subsidies]
 ```
 
-## Policy designs state interventions
+## Policy designs government intervention
 :::: {.columns}
 ::: {.column width="40%"}
 - Process often starts with problem and proceeds in a "cycle". 
@@ -115,8 +118,7 @@ spending --> subs[Provide <br> subsidies]
 
 - Need relevant knowledge
 
-> Without knowing what could happen from research, policy devolves into opinions. 
-
+> With no understanding on what could happen, policy devolves into opinions.
 
 ## Analysts and policymakers - a work in progress
 :::: {.columns}
@@ -152,18 +154,56 @@ spending --> subs[Provide <br> subsidies]
 ![](assets/mot-policy-framework.png)
 
 ## Are markets working?
-- To figure out if there is a market failure, policymakers need to understand how the market works. 
-- Contextual understanding use extensive engagement with different players. 
-- But when things are not working, intelligence from qualitative sources can be heavily biased. 
-- Analytics can play a role. 
+- To figure out if there is a market failure, policymakers need to understand `how the market works`. `Contextual understanding` use extensive `engagement` with different players. 
+- But when things are not working, intelligence from qualitative sources can be heavily biased. `Analytics can provide more objective insights`. 
 
 ## Maritime supply chain policy context
 ![](assets/maritime-ops.png)
 
-## NZ's maritime connectivity
-[](https://mot-analytics.gitlab.io/figs/starboard/maritime-connectivity-2021/voyages)
-[![](assets/data-story.png)](https://mot-analytics.gitlab.io/figs/starboard/maritime-connectivity-2021/voyages){width=80%}
+## NZ maritime connectivity questions
+The COVID-19 pandemic highlighted several `issues around maritime trade resilience and connectivity` that the market was unable to address.  To understand the extent of disruption, we need to understand the system. 
 
+- `What routes do ships take?`
+- `How long does a route take`?
+- `Do ships keep doing the same route?`
+
+## AIS geospatial data
+- Ship movement tracks collected from transponders. 
+- Processed data is more convenient as we're more interested in visited ports than exact route taken. Used data from [Starboard](https://starboard.nz/) -  maritime intelligence from Xerra. 
+
+## Understanding voyages and routes
+![](assets/msc-alabama-voyages.png)
+
+## Understanding voyages and routes
+![](assets/northern-guild-voyages.png)
+
+## Understanding ship schedules
+![](assets/ship-schedules-se-asia.png)
+
+## Understanding ship schedules
+![](assets/ship-schedules-au.png)
+
+## Learning from connectivity networks
+![](assets/maritime-connectivity.png)
+
+## Maritime connectivity analytics with FOSS4G in R
+
+:::: {.columns}
+::: {.column width="50%"}
+
+- `dplyr` and `sf` for data processing
+- `ggplot2` for visualisation
+- `tidygraph` for network analysis
+- `Quarto` for creating reproducible output
+
+:::
+::: {.column width="50%"}
+[](https://mot-analytics.gitlab.io/figs/starboard/maritime-connectivity-2021/voyages)
+[![](assets/data-story.png)](https://mot-analytics.gitlab.io/figs/starboard/maritime-connectivity-2021/voyages){width=40%}
+<div style="text-align: right"> @motmaritimeconn2022 </div>
+
+:::
+::::
 
 # References
 ::: {#refs}
