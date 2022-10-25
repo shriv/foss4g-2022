@@ -40,24 +40,10 @@ flowchart TB
   ds--> sm[Statistical <br> models]
 ```
 
-## Geospatial data science
+## Geospatial analytics
+Combines `spatial`, `numeric`, `categorical`, `temporal` data with `tools that operate seamlessly` across these different types to extract `meaningful patterns`. 
 
-:::: {.columns}
-::: {.column width="40%"}
-An exciting and emerging field that dervies insights with spatial resolution using `new and specialised techniques` and `automation`.
-:::
-::: {.column width="60%"}
-![](assets/gds_summary.png)
-
-<div style="text-align: right"> @gisgeographyWhatSpatialData2022 </div>
-:::
-::::
-
-
-## The value of geospatial data science
-Geospatial data enriches with spatial information. But the same data point can also contain other information - numeric and categorical characteristics, temporal etc. `Tools that operate seamlessly` across these different types of information allow for `deep and useful insights`. 
-
-## FOSS4G embodies value of geospatial data science
+## FOSS enables geospatial analytics
 :::: {.columns}
 ::: {.column width="40%"}
 In languages like R and Python, the standard packages for data science have been extended to geospatial data. APIs are consistent and entering spatial data science has few barriers. 
@@ -67,7 +53,7 @@ In languages like R and Python, the standard packages for data science have been
 :::
 ::::
 
-## FOSS4G in transport
+## FOSS4G paradigm shift in transport
 :::: {.columns}
 ::: {.column width="40%"}
 FOSS4G is disrupting the established use of expensive and specialised software in transport modelling, simulations, mapping etc. 
@@ -100,7 +86,7 @@ spending --> subs[Provide <br> subsidies]
 :::: {.columns}
 ::: {.column width="40%"}
 - Process often starts with problem and proceeds in a "cycle". 
-- Data science plays a role at several points in the cycle. 
+- Analytics plays a role at several points in the cycle. 
 
 ::: 
 
@@ -167,23 +153,25 @@ The COVID-19 pandemic highlighted several `issues around maritime trade resilien
 - `How long does a route take`?
 - `Do ships keep doing the same route?`
 
-## AIS geospatial data
-- Ship movement tracks collected from transponders. 
-- Processed data is more convenient as we're more interested in visited ports than exact route taken. Used data from [Starboard](https://starboard.nz/) -  maritime intelligence from Xerra. 
+## Understanding maritime connectivity with AIS
+- AIS data is `ship movement tracks` collected from transponders. 
+- `Processed data of port visits` is more convenient as we're interested in port connectivity rather than route taken. Used data from [Starboard](https://starboard.nz/) -  maritime intelligence from Xerra. 
+- Writing simple algorithms to identify `routes, voyages and ship schedules`. 
+- Learning from `connectivity networks`. 
 
-## Understanding voyages and routes
+## Voyages and routes
 ![](assets/msc-alabama-voyages.png)
 
-## Understanding voyages and routes
+## Voyages and routes
 ![](assets/northern-guild-voyages.png)
 
-## Understanding ship schedules
+## Ship schedules
 ![](assets/ship-schedules-se-asia.png)
 
-## Understanding ship schedules
+## Ship schedules
 ![](assets/ship-schedules-au.png)
 
-## Learning from connectivity networks
+## Connectivity networks
 ![](assets/maritime-connectivity.png)
 
 ## Maritime connectivity analytics with FOSS4G in R
